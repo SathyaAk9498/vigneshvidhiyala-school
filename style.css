@@ -1,0 +1,493 @@
+*{
+    margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.top{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: blue;
+}
+.mails{
+    display: flex;
+    padding-right: 22px;
+    gap: 9%;
+    justify-content: end;
+}
+.envelope{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 19px;
+}
+.con{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 19px;
+}
+.mar{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+}
+.click{
+    cursor: pointer;
+    padding: 2px;
+    background-color:yellow;
+    color: rgb(201, 90, 90);
+    border: none;
+    border-right: none;
+    border-left: none;
+    font-size: 15px;
+}
+/*  */
+/*  */
+.logo img{
+    width: 90px;
+    height: 90px;
+}
+.container{
+    width: 100%;
+    height: 90px;
+    background-color:rgb(234, 229, 229);
+}
+.navbar{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navlinks{
+    display: flex;
+    list-style-type: none;
+    width: 55%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navlinks li a{
+    color: rgb(9, 9, 248);
+    text-decoration: none;
+    font-size: 19px;
+    font-family: 'Times New Roman', Times, serif;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+}
+.navlinks li a:hover{
+    color: rgb(43, 245, 7);
+}
+#check,#checkbtn{
+    display: none;
+}
+
+
+.bacgroundimage{
+background-image: url(images/banners/WhatsApp\ Image\ 2024-03-28\ at\ 3.11.20\ PM.png);
+width: 100%;
+height: 100vh;
+background-repeat: no-repeat;
+background-size: cover;
+overflow: hidden;
+animation: change 5s infinite ease-in-out;
+}
+@keyframes change{
+    0%{
+        background-image: url(images/banners/WhatsApp\ Image\ 2024-03-28\ at\ 3.11.20\ PM.png);
+     }
+     50%{
+        background-image: url(images/banners/unnamed\ \(3\).png);
+     }
+     80%{
+        background-image: url(images/banners/unnamed\ \(1\).png);
+     }
+}
+#banner{
+    width: 100%;
+    height: 620px;
+    margin-bottom: 5%;
+}
+.box{
+    width: 55%;
+    position: relative;
+    align-items: center;
+    top: 30%;
+    left: 5%;
+}
+.box p{
+    color: rgb(209, 209, 216);
+    font-size: 55px;
+    font-weight: 900;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/*  */
+/*  */
+#education{
+    margin-bottom: 5%;
+}
+.paras p{
+    /* display: block; */
+    text-align: center;
+    font-weight: 500;
+    font-size: 29px;
+    color: black;
+    margin-bottom: 19px;
+}
+h1{
+    text-align: center;
+    font-size: 33px;
+    margin-bottom: 5%;
+}
+.part{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 5%;
+    gap: 2%;
+}
+.partpic{
+    text-align: end;
+}
+.partpic img{
+    width: 65%;
+    height: 300px;
+    align-items: end;
+}
+.contents p{
+    text-align: justify;
+    font-size: 20px;
+    line-height: 2rem;
+    position: relative;
+    top: 22%;
+}
+/*  */
+/*  */
+/*  */
+#facility{
+    height: 600px;
+    background-color: rgb(56, 25, 210);
+    border-bottom-left-radius: 15%;
+   border-top-right-radius: 20%;
+   border: 5px solid rgb(65, 40, 40);
+   margin-bottom: 22px;
+}
+.our{
+    text-align: center;
+    font-size: 45px;
+    letter-spacing: 5px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 10px;
+}
+.carousel { 
+    overflow: hidden;
+    margin: 0 5%;
+  }
+  
+  .carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .carousel-item {
+    flex: 0 0 100%;
+    text-align: center;
+  }
+  
+  img {
+    width: 60%;
+    height: 500px;
+  }
+  .imgletter{
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 5px;
+    color: rgb(240, 234, 234);
+
+  }
+
+  .camp{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 9px;
+    margin-bottom: 5%;
+  }
+  .digital{
+    padding-left: 5%;
+  }
+  .digitals{
+    border: 1px solid rgb(231, 226, 226);
+  }
+  .yes{
+    padding-left: 3%;
+    font-size: 33px;
+    font-weight: 900;
+    color: black;
+    margin-bottom: 9px;
+  }
+  .classs{
+    margin-bottom: 22px;
+    padding-top: 10px;
+    font-size: 19px;
+    line-height: 36px;
+  }
+  .from{
+    font-size: 19px;
+    line-height: 36px;
+    text-align: justify;
+  }
+  .light{
+    /* border: 1px solid red; */
+    text-align: center;
+    align-items: center;
+  }
+  .light img{
+    width: 85%;
+    height: 390px;
+    text-align: center;
+    align-items: center;
+  }
+  #footer{
+    width: 100%;
+    height: 500px;
+    background-color: red;
+  }
+  .all{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 5%;
+  }
+  .picss{
+    padding-left: 5%;
+    padding-top: 5%;
+  }
+  .ftpic img{
+    width: 300px;
+    height: 300px;
+    margin-bottom: 19px;
+  }
+  .line{
+    display: flex;
+    list-style-type: none;
+    gap: 9px;
+    margin-left: 5%;
+  }
+  .line i{
+text-align: center;
+border-radius: 55%;
+border: 9px solid rgb(83, 246, 7);
+padding: 11px;
+color: rgb(71, 244, 8);
+font-size: 29px;
+background-color: rgb(5, 37, 241);
+  }
+  .info{
+    margin-bottom: 9px;
+    padding-top: 5%;
+  }
+  .address{
+    color: rgb(246, 240, 240);
+    list-style-type: none;
+    line-height: 29px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+  }
+  .address li{
+    list-style-type: none;
+    margin-bottom: 9%;
+  }
+  .address li i{
+    border-radius: 49%;
+    color: white;
+    background-color: rgb(50, 33, 36);
+    border: 9px solid red;
+    padding: 11px;
+  }
+  .schools{
+    padding-top: 5%;
+    color: white;
+    font-size: 19px;
+    margin-bottom: 10%;
+    padding-left: 5%;
+  }
+  .arrow{
+    color: white;
+    padding-left: 5%;
+    font-size: 19px;
+  }
+  .arrow li{
+    list-style-type: none;
+    margin-bottom: 5%;
+    text-transform: capitalize;
+  }
+
+
+
+
+
+
+@media (max-width:900px){
+    .top{
+        display: grid;
+        grid-template-columns: 1fr;
+        background-color: blue;
+    }
+    .mails{
+        display: none;
+    }
+    #checkbtn{
+        display: block;
+        font-size: 22px;
+        padding-right: 15px;
+        border-style: dotted;
+        padding: 9px;
+    }
+    #check:checked~.navlinks{
+        display: none;
+    }
+    .navlinks{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        width: 100%;
+        height: 400px;
+        background-color: rgb(229, 199, 199);
+        top: 25%;
+    }
+    .navlinks li a{
+        text-align: justify;
+    }
+    .navlinks li{
+       align-self: flex-start;
+        padding: 9px;
+    }
+    .navlinks li a:hover{
+        color: rgb(122, 139, 127);
+    }
+    /*  */
+    /*  */
+    #banner{
+       
+        margin-bottom: 3%;
+    }
+    /*  */
+    #education{
+        height: 690px;
+        margin-bottom: 5%;
+    }
+    .part{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 0 5%;
+        gap: 2%;
+    }
+    .partpic{
+        text-align: center;
+    }
+    .partpic img{
+        width: 100%;
+    }
+    /*  */
+    /*  */
+    .bacgroundimage{
+        background-image: url(images/banners/WhatsApp\ Image\ 2024-03-28\ at\ 3.11.20\ PM.png);
+        width: 100%;
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: hidden;
+        animation: change 5s infinite ease-in-out;
+        }
+        .our{
+            text-align: center;
+            font-size: 25px;
+            letter-spacing: 5px;
+            font-weight: 600;
+            color: white;
+            margin-bottom: 12px;
+        }
+        .carousel { 
+        overflow: hidden;
+         margin: 0 9%;
+          }
+          img {
+            width: 80%;
+            height: 200px;
+          }
+          #facility{
+            height: 350px;
+            background-color: rgb(56, 25, 210);
+            border-bottom-left-radius: 15%;
+           border-top-right-radius: 15%;
+           border: 5px solid rgb(65, 40, 40);
+        }
+          .imgletter{
+            font-size: 16px;
+            font-weight: 500;
+            color: white;
+          }
+          /*  */
+          /*  */
+          .camp{
+            display: grid;
+            grid-template-columns: 1fr;
+          }
+          .classs{
+            margin-bottom: 22px;
+            text-align: center;
+            padding-top: 10px;
+            font-size: 19px;
+            line-height: 36px;
+          }
+          .from{
+            font-size: 19px;
+            text-align: center;
+            line-height: 36px;
+          }
+          .yes{
+            text-align: center;
+          }
+          .contents p{
+            /* text-align: justify; */
+            text-align: center;
+            font-size: 20px;
+            line-height: 2rem;
+            position: relative;
+            top: 22%;
+        }
+        .all{
+            display: grid;
+            grid-template-columns: 1fr;
+            margin: 0 5%;
+          }
+          #footer{
+            width: 100%;
+            height: 900px;
+            background-color: red;
+          }
+          .ftpic img{
+            width: 200px;
+            height: 200px;
+            margin-bottom: 19px;
+            margin-left: 5%;
+          }
+          .line i{
+            text-align: center;
+            border-radius: 55%;
+            border: 9px solid rgb(83, 246, 7);
+            padding: 11px;
+            color: rgb(71, 244, 8);
+            font-size: 29px;
+            background-color: rgb(5, 37, 241);
+            margin-left: 22%;
+              }
+          .address{
+            color: rgb(246, 240, 240);
+            list-style-type: none;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: justify;
+            font-size: 16px;
+          }
+          .arrow{
+            color: white;
+            padding-left: 5%;
+            font-size: 19px;
+            text-align: justify;
+          }
+        }
